@@ -9,21 +9,50 @@
 /* Begin PBXBuildFile section */
 		C637979F2A0154DF002857B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637979E2A0154DF002857B7 /* AppDelegate.swift */; };
 		C63797A12A0154DF002857B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63797A02A0154DF002857B7 /* SceneDelegate.swift */; };
-		C63797A32A0154DF002857B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63797A22A0154DF002857B7 /* ViewController.swift */; };
+		C63797A32A0154DF002857B7 /* CompaniesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63797A22A0154DF002857B7 /* CompaniesController.swift */; };
 		C63797A62A0154DF002857B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63797A42A0154DF002857B7 /* Main.storyboard */; };
 		C63797A82A0154E2002857B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63797A72A0154E2002857B7 /* Assets.xcassets */; };
 		C63797AB2A0154E2002857B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63797A92A0154E2002857B7 /* LaunchScreen.storyboard */; };
+		C63797D32A026505002857B7 /* UIColor+theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63797D22A026505002857B7 /* UIColor+theme.swift */; };
+		C63797D52A0284F8002857B7 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63797D42A0284F8002857B7 /* Company.swift */; };
+		C63797D72A029FA1002857B7 /* CreateCompanyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63797D62A029FA1002857B7 /* CreateCompanyController.swift */; };
+		C680B7D42A6929B800CA177F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C680B7D32A6929B800CA177F /* Service.swift */; };
+		C68430A82A039BC40088A378 /* IntermediateTrainingModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C68430A62A039BC40088A378 /* IntermediateTrainingModels.xcdatamodeld */; };
+		C6886F5F2A092C4600818FE4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6886F5E2A092C4600818FE4 /* CoreDataManager.swift */; };
+		C69654C12A6811BB009E5F3F /* CompaniesAutoUpdateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69654C02A6811BB009E5F3F /* CompaniesAutoUpdateController.swift */; };
+		C6E6D9B42A653E54007B4BAD /* EmployeeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E6D9B32A653E54007B4BAD /* EmployeeType.swift */; };
+		C6F176272A0A951F007E940B /* CompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F176262A0A951F007E940B /* CompanyCell.swift */; };
+		C6F1762A2A0BA1A0007E940B /* CompaniesController+CreateCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F176292A0BA1A0007E940B /* CompaniesController+CreateCompany.swift */; };
+		C6F1762C2A0BA235007E940B /* CompaniesController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F1762B2A0BA235007E940B /* CompaniesController+UITableView.swift */; };
+		C6F1762E2A0BCF8A007E940B /* EmployeesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F1762D2A0BCF8A007E940B /* EmployeesController.swift */; };
+		C6F176312A0BD521007E940B /* UIViewController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F176302A0BD521007E940B /* UIViewController+Helpers.swift */; };
+		C6F176332A0BD629007E940B /* CreateEmployeeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F176322A0BD629007E940B /* CreateEmployeeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C637979B2A0154DF002857B7 /* IntermediateTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C637979E2A0154DF002857B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C63797A02A0154DF002857B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C63797A22A0154DF002857B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C63797A22A0154DF002857B7 /* CompaniesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesController.swift; sourceTree = "<group>"; };
 		C63797A52A0154DF002857B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C63797A72A0154E2002857B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C63797AA2A0154E2002857B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C63797AC2A0154E2002857B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63797D22A026505002857B7 /* UIColor+theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+theme.swift"; sourceTree = "<group>"; };
+		C63797D42A0284F8002857B7 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		C63797D62A029FA1002857B7 /* CreateCompanyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanyController.swift; sourceTree = "<group>"; };
+		C680B7D32A6929B800CA177F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		C68430A72A039BC40088A378 /* IntermediateTrainingModels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntermediateTrainingModels.xcdatamodel; sourceTree = "<group>"; };
+		C6886F5E2A092C4600818FE4 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		C69654C02A6811BB009E5F3F /* CompaniesAutoUpdateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesAutoUpdateController.swift; sourceTree = "<group>"; };
+		C69D294D2A6AB38D008B4BB3 /* IntermediateTrainingModels_v1.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntermediateTrainingModels_v1.1.xcdatamodel; sourceTree = "<group>"; };
+		C6E6D9B32A653E54007B4BAD /* EmployeeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeType.swift; sourceTree = "<group>"; };
+		C6F176262A0A951F007E940B /* CompanyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCell.swift; sourceTree = "<group>"; };
+		C6F176292A0BA1A0007E940B /* CompaniesController+CreateCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompaniesController+CreateCompany.swift"; sourceTree = "<group>"; };
+		C6F1762B2A0BA235007E940B /* CompaniesController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompaniesController+UITableView.swift"; sourceTree = "<group>"; };
+		C6F1762D2A0BCF8A007E940B /* EmployeesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesController.swift; sourceTree = "<group>"; };
+		C6F176302A0BD521007E940B /* UIViewController+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helpers.swift"; sourceTree = "<group>"; };
+		C6F176322A0BD629007E940B /* CreateEmployeeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEmployeeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +87,51 @@
 			children = (
 				C637979E2A0154DF002857B7 /* AppDelegate.swift */,
 				C63797A02A0154DF002857B7 /* SceneDelegate.swift */,
-				C63797A22A0154DF002857B7 /* ViewController.swift */,
+				C6F1762F2A0BD4EE007E940B /* Helpers */,
+				C67526352A0CFB6F000A19D2 /* Employees */,
+				C6F176282A0BA18C007E940B /* Companies */,
 				C63797A42A0154DF002857B7 /* Main.storyboard */,
 				C63797A72A0154E2002857B7 /* Assets.xcassets */,
 				C63797A92A0154E2002857B7 /* LaunchScreen.storyboard */,
 				C63797AC2A0154E2002857B7 /* Info.plist */,
+				C63797D22A026505002857B7 /* UIColor+theme.swift */,
+				C63797D42A0284F8002857B7 /* Company.swift */,
+				C68430A62A039BC40088A378 /* IntermediateTrainingModels.xcdatamodeld */,
+				C6886F5E2A092C4600818FE4 /* CoreDataManager.swift */,
 			);
 			path = IntermediateTraining;
+			sourceTree = "<group>";
+		};
+		C67526352A0CFB6F000A19D2 /* Employees */ = {
+			isa = PBXGroup;
+			children = (
+				C6F1762D2A0BCF8A007E940B /* EmployeesController.swift */,
+				C6F176322A0BD629007E940B /* CreateEmployeeController.swift */,
+				C6E6D9B32A653E54007B4BAD /* EmployeeType.swift */,
+			);
+			path = Employees;
+			sourceTree = "<group>";
+		};
+		C6F176282A0BA18C007E940B /* Companies */ = {
+			isa = PBXGroup;
+			children = (
+				C63797A22A0154DF002857B7 /* CompaniesController.swift */,
+				C6F176292A0BA1A0007E940B /* CompaniesController+CreateCompany.swift */,
+				C6F1762B2A0BA235007E940B /* CompaniesController+UITableView.swift */,
+				C6F176262A0A951F007E940B /* CompanyCell.swift */,
+				C63797D62A029FA1002857B7 /* CreateCompanyController.swift */,
+				C69654C02A6811BB009E5F3F /* CompaniesAutoUpdateController.swift */,
+				C680B7D32A6929B800CA177F /* Service.swift */,
+			);
+			path = Companies;
+			sourceTree = "<group>";
+		};
+		C6F1762F2A0BD4EE007E940B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C6F176302A0BD521007E940B /* UIViewController+Helpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +205,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C63797A32A0154DF002857B7 /* ViewController.swift in Sources */,
+				C68430A82A039BC40088A378 /* IntermediateTrainingModels.xcdatamodeld in Sources */,
+				C6F176332A0BD629007E940B /* CreateEmployeeController.swift in Sources */,
+				C6F1762C2A0BA235007E940B /* CompaniesController+UITableView.swift in Sources */,
+				C63797A32A0154DF002857B7 /* CompaniesController.swift in Sources */,
+				C6E6D9B42A653E54007B4BAD /* EmployeeType.swift in Sources */,
+				C69654C12A6811BB009E5F3F /* CompaniesAutoUpdateController.swift in Sources */,
+				C6F1762E2A0BCF8A007E940B /* EmployeesController.swift in Sources */,
+				C63797D32A026505002857B7 /* UIColor+theme.swift in Sources */,
 				C637979F2A0154DF002857B7 /* AppDelegate.swift in Sources */,
+				C6F176272A0A951F007E940B /* CompanyCell.swift in Sources */,
+				C63797D52A0284F8002857B7 /* Company.swift in Sources */,
+				C680B7D42A6929B800CA177F /* Service.swift in Sources */,
 				C63797A12A0154DF002857B7 /* SceneDelegate.swift in Sources */,
+				C6886F5F2A092C4600818FE4 /* CoreDataManager.swift in Sources */,
+				C63797D72A029FA1002857B7 /* CreateCompanyController.swift in Sources */,
+				C6F1762A2A0BA1A0007E940B /* CompaniesController+CreateCompany.swift in Sources */,
+				C6F176312A0BD521007E940B /* UIViewController+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +405,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +441,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C68430A62A039BC40088A378 /* IntermediateTrainingModels.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C69D294D2A6AB38D008B4BB3 /* IntermediateTrainingModels_v1.1.xcdatamodel */,
+				C68430A72A039BC40088A378 /* IntermediateTrainingModels.xcdatamodel */,
+			);
+			currentVersion = C68430A72A039BC40088A378 /* IntermediateTrainingModels.xcdatamodel */;
+			path = IntermediateTrainingModels.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C63797932A0154DF002857B7 /* Project object */;
 }
